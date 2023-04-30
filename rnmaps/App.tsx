@@ -12,7 +12,7 @@ import { useEffect, useState, useRef } from 'react';
 
 
 export default function App() {
-  const [location, setLocation] = useState<LocationObject | null>(null)>;
+  const [location, setLocation] = useState<LocationObject | null>(null);
 
   const mapRef = useRef<MapView>(null);
 
